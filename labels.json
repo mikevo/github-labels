@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Priority: Medium",
+    "color": "#fce94f"
+  },
+  {
+    "name": "Priority: Low",
+    "color": "#8ae234"
+  },
+  {
+    "name": "Priority: High",
+    "color": "#fcaf3e"
+  },
+  {
+    "name": "Priority: Critical",
+    "color": "#ef2929"
+  },
+  {
+    "name": "Type: Maintenance",
+    "color": "#fbca04"
+  },
+  {
+    "name": "Type: Question",
+    "color": "#5319e7"
+  },
+  {
+    "name": "Type: Enhancement",
+    "color": "#0e8a16"
+  },
+  {
+    "name": "Type: Bug",
+    "color": "#b60205"
+  },
+  {
+    "name": "Status: Blocked",
+    "color": "#f9d0c4"
+  },
+  {
+    "name": "Status: In Progress",
+    "color": "#c5def5"
+  }
+]
