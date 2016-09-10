@@ -27,7 +27,7 @@
   {
     "name": "Type: Question",
     "color": "#5319e7",
-    "discription": "Questions that are relevant to discuss."
+    "description": "Questions that are relevant to discuss."
   },
   {
     "name": "Type: Enhancement",
