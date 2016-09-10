@@ -6,9 +6,12 @@ The labels can be applied to a github repositories by using [git-labelmaker](htt
 
 ## What are the for?
 The currently used Categories are:
+* Kind
 * Priority
 * Status
 * Type
+
+The **Kind** of an issue specifies to which part of the project it belongs.
 
 The **Priority** is inspired by the [Eisenhower](http://lifehacker.com/5942972/eisenhower-helps-you-prioritize-your-tasks-with-the-urgency-importance-matrix) systems.
 

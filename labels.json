@@ -1,42 +1,67 @@
 [
   {
     "name": "Priority: Medium",
-    "color": "#fce94f"
+    "color": "#fce94f",
+    "description": "The issue is important but not urgent."
   },
   {
     "name": "Priority: Low",
-    "color": "#8ae234"
+    "color": "#8ae234",
+    "description": "The issue is not urgent and not important."
   },
   {
     "name": "Priority: High",
-    "color": "#fcaf3e"
+    "color": "#fcaf3e",
+    "description": "The issue is urgent but not important."
   },
   {
     "name": "Priority: Critical",
-    "color": "#ef2929"
+    "color": "#ef2929",
+    "description": "The issue is urgent and important."
   },
   {
     "name": "Type: Maintenance",
-    "color": "#fbca04"
+    "color": "#fbca04",
+    "description": "An improvement of something that already exists."
   },
   {
     "name": "Type: Question",
-    "color": "#5319e7"
+    "color": "#5319e7",
+    "discription": "Questions that are relevant to discuss."
   },
   {
     "name": "Type: Enhancement",
-    "color": "#0e8a16"
+    "color": "#0e8a16",
+    "description": "Something that new that adds value."
   },
   {
     "name": "Type: Bug",
-    "color": "#b60205"
+    "color": "#b60205",
+    "description": "A problem that needs to be fixed."
   },
   {
     "name": "Status: Blocked",
-    "color": "#f9d0c4"
+    "color": "#f9d0c4",
+    "description": "It is not possible to process this issue for any reason."
   },
   {
     "name": "Status: In Progress",
-    "color": "#c5def5"
+    "color": "#c5def5",
+    "description": "Someone is aware of this issue and is currently resolving it."
+  },
+  {
+    "name": "Kind: Doc",
+    "color": "#dddddd",
+    "description": "This issue belongs to the documentation."
+  },
+  {
+    "name": "Kind: Code",
+    "color": "#dddddd",
+    "description": "This issue belongs to the source code."
+  },
+  {
+    "name": "Kind: Support",
+    "color": "#dddddd",
+    "description": "This issue is a support request."
   }
 ]
