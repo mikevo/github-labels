@@ -2,7 +2,26 @@
 This project is meant to purpose a hopefully useful labeling system. Based on the purpose of [Sane GitHub Labels](https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63#.8s5wiw1mn) a categorization of the labels is used.
 
 ## How to apply them?
+### git-labelmaker
 The labels can be applied to a github repositories by using [git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
+
+### gitlab-labelmaker
+This is a tool written to support GitLab as well. Please note that it is a quick and dirty solution.
+
+The <code>gitlab-labelmaker.py</code> accepts exactly one parameter which is <code>delete</code>. If you specify this parameter all currently available labels will be removed before the new labels are added. This removes all labels from any issue as well.
+
+#### config
+Store this JSON as <code>.labelmaker_config.json</code> in the directory where you run the command. You should add this file to the <code>.gitignore</code> if it is stored in a git repository otherwise you might accidentally make your token public.
+```json
+{
+  "url": "https://gitlab.com/api/v3",
+  "repoprefix": "/projects",
+  "token": "<privat_access_token>",
+  "user": "<username>",
+  "repo": "<reponame>",
+  "labelfile": "<local path to the labels.json>",
+}
+```
 
 ## What are the for?
 The currently used Categories are:
