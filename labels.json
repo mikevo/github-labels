@@ -21,12 +21,12 @@
   },
   {
     "name": "kind/maintenance",
-    "color": "#fbca04",
+    "color": "#f6c901",
     "description": "An improvement of something that already exists."
   },
   {
     "name": "kind/question",
-    "color": "#5319e7",
+    "color": "#8e44ad",
     "description": "Questions that are relevant to discuss."
   },
   {
@@ -36,12 +36,12 @@
   },
   {
     "name": "kind/bug",
-    "color": "#b60205",
+    "color": "#cc0033",
     "description": "A problem that needs to be fixed."
   },
   {
     "name": "kind/support",
-    "color": "#dddddd",
+    "color": "#428bca",
     "description": "This issue is a support request."
   },
   {
