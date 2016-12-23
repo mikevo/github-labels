@@ -1,67 +1,67 @@
 [
   {
-    "name": "Priority: Medium",
+    "name": "priority/medium",
     "color": "#fce94f",
     "description": "The issue is important but not urgent."
   },
   {
-    "name": "Priority: Low",
+    "name": "priority/low",
     "color": "#8ae234",
     "description": "The issue is not urgent and not important."
   },
   {
-    "name": "Priority: High",
+    "name": "priority/high",
     "color": "#fcaf3e",
     "description": "The issue is urgent but not important."
   },
   {
-    "name": "Priority: Critical",
+    "name": "priority/critical",
     "color": "#ef2929",
     "description": "The issue is urgent and important."
   },
   {
-    "name": "Type: Maintenance",
+    "name": "kind/maintenance",
     "color": "#fbca04",
     "description": "An improvement of something that already exists."
   },
   {
-    "name": "Type: Question",
+    "name": "kind/question",
     "color": "#5319e7",
     "description": "Questions that are relevant to discuss."
   },
   {
-    "name": "Type: Enhancement",
+    "name": "kind/enhancement",
     "color": "#0e8a16",
     "description": "Something that new that adds value."
   },
   {
-    "name": "Type: Bug",
+    "name": "kind/bug",
     "color": "#b60205",
     "description": "A problem that needs to be fixed."
   },
   {
-    "name": "Status: Blocked",
+    "name": "kind/support",
+    "color": "#dddddd",
+    "description": "This issue is a support request."
+  },
+  {
+    "name": "status/blocked",
     "color": "#f9d0c4",
     "description": "It is not possible to process this issue for any reason."
   },
   {
-    "name": "Status: In Progress",
+    "name": "status/in_progress",
     "color": "#c5def5",
     "description": "Someone is aware of this issue and is currently resolving it."
   },
   {
-    "name": "Kind: Doc",
+    "name": "area/doc",
     "color": "#dddddd",
     "description": "This issue belongs to the documentation."
   },
   {
-    "name": "Kind: Code",
+    "name": "area/code",
     "color": "#dddddd",
     "description": "This issue belongs to the source code."
-  },
-  {
-    "name": "Kind: Support",
-    "color": "#dddddd",
-    "description": "This issue is a support request."
   }
 ]
